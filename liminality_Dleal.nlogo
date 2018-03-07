@@ -110,17 +110,6 @@ turtles-own
  my-rbrokerage  ;; racial brokerage score of agent i
 ]
 
-to setup
-
- clear-all
- set-default-shape turtles "circle 2"
- import-data
- c-net-stats
- segregation-measures
- do-plots
- reset-ticks
-end
-
 to go
  reset-variables
  generate-thresholds
@@ -1173,7 +1162,7 @@ TEXTBOX
 13
 948
 69
-Ethnoracial Liminality and the Diffusion of Innovations among Adolescents 
+Ethnoracial Liminality and the Diffusion of Innovations among Adolescents
 23
 55.0
 1
